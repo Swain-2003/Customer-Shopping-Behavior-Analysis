@@ -12,13 +12,13 @@ The project follows a complete **Data Analytics workflow**, starting from raw da
 
 ## 🎯 Project Objectives
 
-- Analyze customer purchasing behavior.
-- Clean and prepare the raw dataset.
-- Perform exploratory data analysis using Python.
-- Perform business analysis using SQL.
-- Create an interactive Power BI dashboard.
-- Identify important business insights.
-- Provide actionable business recommendations.
+* Analyze customer purchasing behavior.
+* Clean and prepare the raw dataset.
+* Perform exploratory data analysis using Python.
+* Perform business analysis using SQL.
+* Create an interactive Power BI dashboard.
+* Identify important business insights.
+* Provide actionable business recommendations.
 
 ---
 
@@ -44,27 +44,52 @@ Recommendations
 
 ---
 
+## 📊 Power BI Dashboard
+
+The Power BI dashboard provides an interactive view of customer shopping behavior, sales performance, customer segments, and purchasing patterns.
+
+### Dashboard Preview
+
+![Customer Shopping Behavior Power BI Dashboard](dashboard.png)
+
+### Dashboard Includes
+
+* Total Customers
+* Total Revenue
+* Average Purchase Amount
+* Average Rating
+* Customer Segments
+* Sales by Category
+* Sales by Gender
+* Sales by Age Group
+* Sales by Location
+* Subscription Analysis
+* Purchase Frequency
+* Discount Analysis
+
+---
+
 ## 🐍 Python — Data Preparation
 
-Python is used for **data cleaning, preprocessing, exploration, and feature engineering**.
+Python is used for **data cleaning, preprocessing, exploratory data analysis, and feature engineering**.
 
 ### Main Tasks
 
-- Load the dataset using Pandas.
-- Check missing values.
-- Remove duplicate records.
-- Check data types.
-- Handle missing and inconsistent data.
-- Perform exploratory data analysis.
-- Create useful features for analysis.
-- Prepare the cleaned dataset for SQL and Power BI.
+* Load the dataset using Pandas.
+* Check missing values.
+* Remove duplicate records.
+* Check data types.
+* Handle missing and inconsistent data.
+* Perform exploratory data analysis.
+* Create useful features for analysis.
+* Prepare the cleaned dataset for SQL and Power BI.
 
 ### Libraries Used
 
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
 
 ---
 
@@ -74,67 +99,52 @@ SQL is used to analyze the cleaned customer shopping data and answer important b
 
 ### Analysis Includes
 
-- Total number of customers.
-- Total sales/revenue.
-- Average purchase amount.
-- Sales by category.
-- Sales by gender.
-- Sales by age group.
-- Sales by location.
-- Purchase frequency.
-- Customer segments.
-- Discount usage.
-- Subscription behavior.
-- Top-performing products/categories.
+* Total number of customers.
+* Total sales/revenue.
+* Average purchase amount.
+* Sales by category.
+* Sales by gender.
+* Sales by age group.
+* Sales by location.
+* Purchase frequency.
+* Customer segments.
+* Discount usage.
+* Subscription behavior.
+* Top-performing products/categories.
 
 ### SQL Concepts Used
 
-- `SELECT`
-- `WHERE`
-- `GROUP BY`
-- `ORDER BY`
-- `HAVING`
-- `CASE`
-- Aggregate functions
-- Subqueries
-- Joins
-- CTEs
-- Window functions
+* `SELECT`
+* `WHERE`
+* `GROUP BY`
+* `ORDER BY`
+* `HAVING`
+* `CASE`
+* Aggregate Functions
+* Subqueries
+* Joins
+* CTEs
+* Window Functions
 
 ---
 
-## 📊 Power BI Dashboard
+## 📊 Power BI — Dashboard & Visualization
 
 Power BI is used to create an interactive dashboard for visualizing the results of the analysis.
 
-### Dashboard Includes
-
-- Total Customers
-- Total Revenue
-- Average Purchase Amount
-- Average Rating
-- Customer Segments
-- Sales by Category
-- Sales by Gender
-- Sales by Age Group
-- Sales by Location
-- Subscription Analysis
-- Purchase Frequency
-- Discount Analysis
-
 ### Power BI Features Used
 
-- Power Query
-- Data Modeling
-- Relationships
-- DAX
-- Cards
-- Bar Charts
-- Column Charts
-- Pie/Donut Charts
-- Slicers
-- KPI visuals
-- Interactive filters
+* Power Query
+* Data Modeling
+* Relationships
+* DAX
+* Cards
+* Bar Charts
+* Column Charts
+* Pie/Donut Charts
+* Slicers
+* KPI Visuals
+* Interactive Filters
 
 ---
 
@@ -142,13 +152,13 @@ Power BI is used to create an interactive dashboard for visualizing the results 
 
 The analysis helps identify:
 
-- Which product categories generate the highest sales.
-- Which customer groups contribute the most revenue.
-- How purchasing behavior differs between customer segments.
-- The impact of discounts on purchasing behavior.
-- The relationship between subscriptions and customer purchases.
-- Which locations have stronger customer activity.
-- Which products/categories require additional attention.
+* Which product categories generate the highest sales.
+* Which customer groups contribute the most revenue.
+* How purchasing behavior differs between customer segments.
+* The impact of discounts on purchasing behavior.
+* The relationship between subscriptions and customer purchases.
+* Which locations have stronger customer activity.
+* Which products/categories require additional attention.
 
 ---
 
@@ -156,14 +166,14 @@ The analysis helps identify:
 
 Based on the analysis, businesses can:
 
-- Focus marketing efforts on high-value customer segments.
-- Promote high-performing product categories.
-- Create personalized offers for different customer groups.
-- Improve customer retention strategies.
-- Encourage customers to subscribe.
-- Optimize discount strategies.
-- Target locations with high growth potential.
-- Use customer behavior to improve future marketing campaigns.
+* Focus marketing efforts on high-value customer segments.
+* Promote high-performing product categories.
+* Create personalized offers for different customer groups.
+* Improve customer retention strategies.
+* Encourage customers to subscribe.
+* Optimize discount strategies.
+* Target locations with high growth potential.
+* Use customer behavior to improve future marketing campaigns.
 
 ---
 
@@ -173,6 +183,7 @@ Based on the analysis, businesses can:
 Customer-Shopping-Behavior-Analysis
 │
 ├── README.md
+├── dashboard.png
 ├── requirements.txt
 ├── .gitignore
 │
@@ -231,16 +242,6 @@ Open the `.pbix` file using **Power BI Desktop** to explore the interactive dash
 
 ---
 
-## 📚 Project Documentation
-
-This project demonstrates a complete data analytics workflow:
-
-**Python → SQL → Power BI → Business Insights**
-
-It combines data preparation, data analysis, visualization, and business decision-making into one end-to-end project.
-
----
-
 ## 🛠️ Technologies Used
 
 | Technology   | Purpose                       |
@@ -256,6 +257,16 @@ It combines data preparation, data analysis, visualization, and business decisio
 
 ---
 
+## 📚 Project Documentation
+
+This project demonstrates a complete data analytics workflow:
+
+**Python → SQL → Power BI → Business Insights**
+
+It combines data preparation, data analysis, visualization, and business decision-making into one end-to-end project.
+
+---
+
 ## 👤 Author
 
 **Saroj Kumar Swain**
@@ -265,4 +276,3 @@ Data Analytics Learner | Python | SQL | Pandas | NumPy | Power BI
 ---
 
 ⭐ If you find this project useful, feel free to explore the repository and the analysis.
-git
