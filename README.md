@@ -50,8 +50,7 @@ The Power BI dashboard provides an interactive view of customer shopping behavio
 
 ### Dashboard Preview
 
-![Customer Shopping Behavior Power BI Dashboard](dashboard.png)
-
+![Customer Shopping Behavior Power BI Dashboard](PowerBI/Dashboard.png)
 ### Dashboard Includes
 
 * Total Customers
